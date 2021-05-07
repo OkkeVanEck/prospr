@@ -7,5 +7,6 @@ pytest==6.2.3
 pytest-order==0.11.0
 seaborn==0.10.1
 setuptools>=49.2.0
+sphinx==3.5.4
 twine>=3.2.0
 wheel>=0.34.2

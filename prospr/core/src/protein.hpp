@@ -29,6 +29,7 @@ class Protein {
         void place_amino(int move, bool track=true);
         // TODO: Change function to use the last_move attribute.
         void remove_amino(int move);
+        // TODO: Make the change_score function private.
         void change_score(int move, int weight);
         std::vector<int> hash_fold();
         void set_hash(std::vector<int> fold_hash, bool track=false);
